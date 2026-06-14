@@ -3,6 +3,7 @@ import "./All.css"
 import UserList from "./UserList"
 import About from "./About"
 import Users from "./Users"
+import CheckServer from "./UserList"
 function Home() {
     return (
         <div>
@@ -23,7 +24,7 @@ function App() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/About" element={<About/>}/>
                 <Route path="/Users" element={<Users/>}/>
-                <Route path="UserList" element={<UserList/>}/>
+                <Route path="UserList" element={<CheckServer/>}/>
             </Routes>
         </div>
     )
