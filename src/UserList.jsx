@@ -29,7 +29,7 @@ function UserList() {
     )
     if (loading) return(
       <div>
-        <h1>git test</h1>
+        <h1>Загрузка...</h1>
       </div>
     )
 
