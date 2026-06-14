@@ -9,4 +9,4 @@ function checkServer() {
     <h2>{data}</h2>
   )
 }
-export default UserList
+export default checkServer
